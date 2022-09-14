@@ -4,6 +4,20 @@ Open android settings from your react native app
 
 ##### Based on New RN Arch (Also Supports Old Arch)
 
+## Install
+
+Using yarn
+
+```
+yarn add react-native-open-settings-android
+```
+
+Using npm
+
+```
+npm install react-native-open-settings-android --save
+```
+
 ## Usage
 
 ```javascript
