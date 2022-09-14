@@ -1,6 +1,6 @@
 {
   "name": "react-native-open-settings-android",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open android settings from your react native app",
   "react-native": "src/index",
   "source": "src/index",
