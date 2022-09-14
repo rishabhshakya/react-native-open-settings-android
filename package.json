@@ -1,0 +1,45 @@
+{
+  "name": "react-native-open-settings-android",
+  "version": "1.0.0",
+  "description": "Open android settings from your react native app",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "rtn-calculator.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "open",
+    "settings"
+  ],
+  "repository": "https://github.com/rishabhshakya/react-native-open-settings-android",
+  "author": "<Rishabh Shakya> <rishabhshakya@yahoo.com> (https://github.com/rishabhshakya)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabhshakya/react-native-open-settings-android/issues"
+  },
+  "homepage": "https://github.com/rishabhshakya/react-native-open-settings-android#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNOpenSettingsSpecAndroid",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.rtnopensettingsandroid"
+    }
+  }
+}
